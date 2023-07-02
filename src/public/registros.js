@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/api/consultas/";
+const url = "http://23.20.123.17:3000/api/consultas/";
 let resultados = '';
 const formArticulo = document.querySelector("form");
 const NOMBRES = document.getElementById("NOMBRES");
