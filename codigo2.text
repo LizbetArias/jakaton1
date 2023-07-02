@@ -1,0 +1,101 @@
+--------------------------------------------ingresamos al gitBash------------------------------------------------
+//creamos la carpeta inicio
+
+mkdir inicio
+
+// ingresamos a la carpeta cd  inicio
+
+cd inicio
+
+//inicializamos un proyecto de node js
+
+npm init -y
+
+//vemos si se han istalado el package.json
+
+ls -l
+
+//Instalamos las dependencias 
+
+npm i morgan ejs express cors  mysql
+
+//ingresamos a CAT este codigo nos permite visualizar el texto que se encuentra dentro del archivo
+
+cat package.json
+
+// Instalamos la dependecias para mostrar el programa
+
+npm i nodemon -D
+
+// editaremos el package,json
+
+nano package.json
+
+-----cambiamos el (test)------
+"type":"module",
+"test":"nodemon src/index.js"
+
+//creamos el src
+
+mkdir src
+
+//ingresamos al src 
+
+cd src
+
+//creamos la carpeta public y views 
+
+mkdir public && views 
+
+//creamos un archivo index.js
+
+touch index.js
+
+//ingresamos al archivo index.js y colocamos el codigo de la importacion de librerias y la ruta absoluta
+
+------(aca alliva esta el scrip "INDEX.JS")-------
+
+nano index.js 
+
+//creamos en el public los js del REGISTRO o CONTROLLER donde tambien van a estar los recursos ("css, img, js") views(index.ejs)
+
+//inicializamos otra vez el proyecto o regsitro remoto 
+
+git init
+
+
+---------------------CREAMOS UN REPOSITORIO PARA EL TRABAJO----------------------------------
+
+//guardaremos los cambios 
+
+    git status
+    git add .
+    git status
+    git commit -m "_________"
+
+    git remote add origin http://nombre de tu repo.git
+
+    git add .
+
+//subiremos los cambios al REPOSITORIO
+
+    git push -u origin master
+
+LISTO YA GUARDASTE TU TRABAJO DEL REPOSITORIO...
+
+//INGRESAMOS A LA INSTANCIA CREADO Y EL ARCHIVO.PEN  EN DONWALDS (DESCARGAS) 
+
+chmod 400 Iris.pem 
+
+//Actualizamos los paquetes 
+
+sudo upt update && sudo apt upgrade
+
+*colocamos OK en todos los terminos*
+
+//Ingresamos al host
+
+ssh -i lizbet2.pem ubuntu@44.543.545 
+
+//
+
