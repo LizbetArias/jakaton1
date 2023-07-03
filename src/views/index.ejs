@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <script src="/registros.js"></script>
+    <script src="/jakaton1/src/public/registros.js"></script>
     <title>BaseDatos</title>
 </head>
 <body>
@@ -13,19 +13,18 @@
     <section class="BdSepulveda">
         <div class="formulario">
             <h2 class="formu-titulo">ENVIANOS TU MENSAJE</h2>
-            <form action="" class="form" id="form">
-                <input type="text" class="item-1" placeholder="Nombres" id="NOMBRES">
-                <input type="text" class="item-2" placeholder="Apellidos" id="APELLIDOS">
-                <input type="text" class="item-3" placeholder="Telefonó" id="TELEFONO">
-                <input type="email" class="item-5" placeholder="Correo electronico" id="EMAIL">
-                <textarea name="" id="MSG" class="Escribenos" placeholder="¿en que podemos ayudarlo?"></textarea>
+            <form class="form" id="form" action="http://23.20.123.17:3000/api/consultas" method="POST">
+                <input type="text" class="item-1" placeholder="Nombres" id="NOMBRES" name="NOMBRES">
+                <input type="text" class="item-2" placeholder="Apellidos" id="APELLIDOS" name="APELLIDOS">
+                <input type="text" class="item-3" placeholder="Teléfono" id="TELEFONO" name="TELEFONO">
+                <input type="email" class="item-5" placeholder="Correo electrónico" id="EMAIL" name="EMAIL">
+                <textarea id="MSG" class="Escribenos" placeholder="¿En qué podemos ayudarlo?" name="MSG"></textarea>
                 <button class="boton" id="btnCrear" type="submit">ENVIAR</button>
             </form>
         </div>
 
-    <script src="/registros.js"></script>
-    <script src="./index.js"></script>  
-
-</section>
+        <script src="/registros.js"></script>
+        <script src="./../index.js"></script>
+    </section>
 </body>
 </html>
